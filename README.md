@@ -13,7 +13,7 @@
 
  The python script: datavis_project.py
 
- - imports relevant libraries
+ - imports relevant libraries (matplotlib is the main library used for interaction)
  - loads in data
  - data cleaning, dielectric conversions, variable definitions
  
@@ -31,3 +31,4 @@
 - Shown again on the left is the radargram with the reference trace location.
 
 - Visualizations to the right of the radargram show individual plots for the column depth with power for a given material. Crosshairs on each of these plots snap to the profile and follow the direction (up or down the profile) of the mouse cursor. The plot that your mouse cursor hovers over is the referenced by the other plots, and all three are updated to the according cursor location in this plot. Power (x) and depth (y) locations are printed at the bottom of each plot, for reference.
+
