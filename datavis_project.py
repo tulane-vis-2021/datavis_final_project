@@ -94,6 +94,8 @@ y3 = np.array(d_br_collect_seawater_ice);
 
 #%% CLICK EVENT -- UPDATE PLOT
 
+plt.ion() #required if not using IDE
+
 def onclick(event):
     if event.button == 1:
         plt.clf()
@@ -187,6 +189,8 @@ fig.suptitle("Permittivity-dependent ice thickness in radar sounding")
 fig.set_size_inches(8,8,forward=True)
 
 #%% CURSOR SNAP
+
+plt.ion() #required if not using IDE
 
 x1 = power_traces_averaged_dB;
 y1 = np.array(d_br_collect_co2_ice);
