@@ -7,7 +7,7 @@
 
 # importing packages
 
-%matplotlib
+%matplotlib # necessary for IPython terminal
 
 import numpy as np
 import pandas as pd
@@ -96,7 +96,7 @@ y3 = np.array(d_br_collect_seawater_ice);
 
 #%% CLICK EVENT -- UPDATE PLOT
 
-plt.ion() #required if not using IDE
+plt.ion() #necessary for IPython terminal
 
 def onclick(event):
     if event.button == 1:
@@ -192,7 +192,7 @@ fig.set_size_inches(8,8,forward=True)
 
 #%% CURSOR SNAP
 
-plt.ion() #required if not using IDE
+plt.ion() #necessary for IPython terminal
 
 x1 = power_traces_averaged_dB;
 y1 = np.array(d_br_collect_co2_ice);
