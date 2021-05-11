@@ -204,8 +204,8 @@ class FollowDataWithCursor:
     def __init__(self, ax, x, y):
         self.ax = ax
         #crosshairs
-        self.lx = ax.axhline(markersize=0.5,color='k')
-        self.ly = ax.axvline(markersize=0.5,color='k')
+        self.lx = ax.axhline(lw=0.5,color='r')
+        self.ly = ax.axvline(lw=0.5,color='r')
         #data variables
         self.x = x
         self.y = y
@@ -274,3 +274,5 @@ cid3 = fig.canvas.mpl_connect('motion_notify_event', snap_cursor3.follow_mouse)
 
 fig.set_size_inches(9,5,forward=True)
 fig.subplots_adjust(wspace=0.7)
+
+# %%
