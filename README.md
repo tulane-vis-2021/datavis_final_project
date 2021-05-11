@@ -1,5 +1,7 @@
 # datavis_final_project
- 
+
+### THIS CODE SHOULD BE RUN IN AN IPYTHON INTERACTIVE SHELL OR THE SPYDER IDE. ### 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
  This repository contains a python script that loads in four files:
 
  data_vis_mapping.csv
