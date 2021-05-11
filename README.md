@@ -9,7 +9,7 @@
  power_traces.csv
  s_03763302.jpg
 
- The three .csv files contain information from SHARAD track s_03763302. The .jpg is a radargram of this track, for visual reference.
+ The three .csv files contain information from SHARAD track s_03763302. The .jpg is a radargram of this track, for visual reference. The paths to these files may need to change depending on where you store them.
 
  The python script: datavis_project.py
 
